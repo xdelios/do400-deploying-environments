@@ -5,7 +5,7 @@ pipeline{
         }
     }
     environment{
-        RHT_OCP_DEV_USER = 'rplvvx'
+        RHT_OCP4_DEV_USER = 'rplvvx'
         DEPLOYMENT_STAGE = 'shopping-cart-stage'
         DEPLOYMENT_PRODUCTION = 'shopping-cart-production'
     }
