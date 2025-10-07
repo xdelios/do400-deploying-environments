@@ -17,7 +17,7 @@ pipeline{
                     ./mvnw package -DskipTests \
                     -Dquarkus.package.type=uber-jar
                     '''
-                archiveArtifcats 'target/*.jar'
+                archiveArtifacts 'target/*.jar'
             }
         }
     }
